@@ -1,6 +1,6 @@
 module.exports = (componentName) => ({
   content: `export interface ${componentName.toLowerCase()}Props {
-  foo: string;
+  foo?: string;
 }
 `,
   extension: `.types.ts`,

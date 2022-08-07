@@ -14,7 +14,7 @@ const ProfileFooter: React.FC<profilefooterProps> = () => {
           <img src={Twt} alt="twt" className="w-10 mx-3 md:mx-5" />
           <img src={Insta} alt="insta" className="w-10" />
         </span>
-        <Link to="/home"><img src={BackArrow} alt="back" className="w-10 goback mt-5 md:mt-10" title="Go back" /></Link>
+        <Link to="/home"><img src={BackArrow} alt="back" className="w-10 mt-5 md:mt-10" title="Go back" /></Link>
       </div>
     </div>
   );

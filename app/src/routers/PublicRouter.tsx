@@ -1,4 +1,4 @@
-import { Navigate, Outlet, useLocation, useNavigate } from "react-router-dom";
+import { Navigate, Outlet } from "react-router-dom";
 
 export default function PublicRouter() {
   const token = true
